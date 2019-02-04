@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TheGuide</string>
+
+    <string name="DialogTitle">Actions</string>
+    <string name="Favorite">Set as favorite</string>
+    <string name="Permalink">Get permalink</string>
+    <string name="Delete">Delete</string>
+
+    <string name="ExampleText">Family Shared</string>
+    <string name="ExampleDate">modified June5,2014</string>
+
+    <string name="Error">Oops!\n Database error!\n See logs for more detail!</string>
+
+    <string name="modified">modified </string>
+</resources>

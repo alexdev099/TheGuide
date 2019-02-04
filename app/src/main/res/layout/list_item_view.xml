@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:orientation="horizontal"
+    android:background="@drawable/border">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.02"
+        android:orientation="vertical"
+        android:background="@drawable/two_sides_border">
+
+        <TextView
+            android:id="@+id/tvIsOrange"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorOrange" />
+
+        <TextView
+            android:id="@+id/tvIsBlue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorBlue" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:layout_weight="0.3"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/tvFileName"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textColor="@color/colorBlack"
+            android:layout_weight="0.7"
+            android:gravity="bottom"
+            android:textSize="20sp"
+            android:text="@string/ExampleText"/>
+
+        <TextView
+            android:id="@+id/tvModDate"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:gravity="top"
+            android:text="@string/ExampleDate"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLightGrey"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.02"
+        android:background="@drawable/two_sides_border"
+        />
+
+    <TextView
+        android:id="@+id/tvDarkGrey"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.02"
+        android:background="@drawable/two_sides_border"/>
+</LinearLayout>
